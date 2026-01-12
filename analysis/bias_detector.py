@@ -6,7 +6,7 @@ Bias Detector - HYBRID VERSION
 
 import streamlit as st
 import os
-from transformers import pipeline
+# from transformers import pipeline (Removed)
 from openai import OpenAI
 from utils.prompts import BIAS_SYSTEM_PROMPT, get_bias_prompt
 
